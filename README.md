@@ -33,3 +33,6 @@ The app is able to collect data (humidity measurements) via REST API. What is mo
 * /strategies/addStrategyToField - expects JSON in format {"primaryId":Int, "secondaryId":Int} where first ID is strategyID and second one is FieldID
 * /waterCannons/createCannon - expects JSON in format {"fieldId":Int} - where fieldID represents field the cannon is assigned to
 * /waterCannons/addCannonToField - expects JSON in format {"primaryId":Int, "secondaryId":Int} where first ID represens cannon and the second one - field. Beware that it can be only one field assigned to cannon.
+
+## Database
+The database used is Apache Derby
